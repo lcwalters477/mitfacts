@@ -7,6 +7,8 @@ describe('MIT', () => {
         expect(mit).toHaveProperty('city');
         expect(mit).toHaveProperty('colors');
         expect(mit).toHaveProperty('mascot');
+        expect(mit).toHaveProperty('founded');
+        expect(mit).toHaveProperty('motto');
     });
 
     test('City match', () => {
